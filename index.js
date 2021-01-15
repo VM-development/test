@@ -8,7 +8,6 @@ const fs = require('fs');
 const express = require('express');
 
 function main(cliArgs){
-
     // Verify args
     let configFile;
     if(cliArgs.length != 1){
